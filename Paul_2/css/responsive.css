@@ -1,0 +1,158 @@
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    body {
+        margin: 0 15px;
+        max-width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin: 10vh 0;
+    }
+
+    nav a {
+        font-size: var(--fs-18);
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .head-img {
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .title {
+        font-size: var(--fs-50);
+    }
+
+    .subtitle {
+        font-size: var(--fs-30);
+    }
+
+    .text {
+        font-size: var(--fs-16);
+        padding-left: 10px;
+    }
+
+    .section-container {
+        display: block;
+        text-align: center;
+    }
+
+    .title-section.section-1 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .marquee {
+        font-size: var(--fs-30);
+        animation: marquee 15s infinite linear;
+    }
+
+    .profile {
+        width: 150px;
+        height: 150px;
+
+    }
+}
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .head-img {
+        height: 350px;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .title {
+        font-size: var(--fs-72);
+    }
+
+    .subtitle {
+        font-size: var(--fs-40);
+    }
+
+    .text {
+        font-size: var(--fs-18);
+    }
+
+    .section-container {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Small screens (up to 480px) */
+@media (max-width: 480px) {
+    body {
+        margin: 0 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav a {
+        font-size: var(--fs-16);
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    .head-img {
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .title {
+        font-size: var(--fs-40);
+    }
+
+    .subtitle {
+        font-size: var(--fs-26);
+    }
+
+    .text {
+        font-size: var(--fs-14);
+    }
+
+    .section-container {
+        display: block;
+        text-align: center;
+    }
+
+    .marquee {
+        font-size: var(--fs-20);
+        animation: marquee 20s infinite linear;
+    }
+}
+
+/* === Small tablet and large mobile === */
+@media (max-width: 600px) {
+    .title {
+        font-size: var(--fs-40);
+    }
+
+    .subtitle {
+        font-size: var(--fs-26);
+    }
+
+    .text {
+        font-size: var(--fs-16);
+    }
+
+    .marquee {
+        font-size: var(--fs-26);
+    }
+}
