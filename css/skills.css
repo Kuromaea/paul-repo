@@ -60,3 +60,9 @@
 .item:hover p {
     opacity: 1;
 }
+
+.open-title {
+    font-family: 'DMSans';
+    font-size: var(--fs-26);
+    text-align: center;
+}
